@@ -1,0 +1,87 @@
+:root {
+    --colour-primary: black;
+    --colour-secondary: #e6b412;
+}
+
+.bg-primary {
+    background-color: var(--colour-primary);
+}
+
+.bg-secondary {
+    background-color: var(--colour-secondary);
+}
+
+.bg-error{
+    background-color: #ff0000;
+}
+
+.bg-warning{
+    background-color: #a2840e;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.text-primary {
+    color: var(--colour-primary) !important;
+}
+
+.text-secondary {
+    color: var(--colour-secondary);
+}
+
+.text-black{
+    color: #000;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.border-primary {
+    border-color: var(--colour-primary);
+}
+
+.login-box {
+    border:2px solid rgb(255, 57, 90);
+    border-radius: 3%;
+}
+.login-bg-img{
+    background-image: url(https://png.pngtree.com/background/20240412/original/pngtree-3d-rendered-movie-theatre-with-no-audience-picture-image_8464340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-box-text{
+    color:white;
+    text-shadow: 2px 2px 4px #ff6c6c;
+}
+.login-box-intext{
+    color:white;
+    text-shadow: 2px 2px 4px #ff6c6c;
+}
+.login-input{
+    border:none;
+    color:red;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 15px;
+}
+.login-submit{
+    border:none;
+    color:rgb(255, 255, 255);
+    background-color:red;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 15px;
+}
+.login-submit-o{
+    color:rgb(202, 202, 202);
+    background-color:rgb(255, 97, 97);
+    
+}
